@@ -1,0 +1,19 @@
+{
+  "name": "modulus-ssl-example",
+  "version": "1.0.0",
+  "description": "Example used in the Modulus SSL tutorial.",
+  "main": "site.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Moxles/ssl.git"
+  },
+  "author": "Richard Key <rich@busyrich.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Moxles/ssl/issues"
+  },
+  "homepage": "https://github.com/Moxles/ssl",
+  "dependencies": {
+    "node-static": "^0.7.4"
+  }
+}

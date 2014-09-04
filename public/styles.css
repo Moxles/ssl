@@ -1,0 +1,60 @@
+body {
+  font-size: 1.5em;
+  font-family: Arial;
+  line-height: 1.75em;
+}
+
+.green {
+  color: #18C42C;
+}
+
+.badge.yellow {
+  color: #BAC72C;
+  border: 3px solid #BAC72C;
+  background-color: #FBFFCC;
+}
+
+.badge.red {
+  color: #50734E;
+  border: 3px solid #50734E;
+  background-color: #C2FFC2;
+}
+
+/* http://cssarrowplease.com/ */
+#infoBox {
+	position: relative;
+	background: #fff;
+	border: 4px solid #000;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 80%;
+  margin: 40px auto 0;
+  padding: 0 20px;
+}
+
+#infoBox:after,
+#infoBox:before {
+	bottom: 100%;
+	left: 10%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+#infoBox:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #000;
+  border-width: 26px;
+  margin-left: -26px;
+}
+
+#infoBox:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #fff;
+	border-width: 20px;
+	margin-left: -20px;
+}
